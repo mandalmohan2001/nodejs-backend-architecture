@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-backend-architecture-typescript",
+  "version": "1.0.0",
+  "description": "NodeJS Backend Architecture Typescript",
+  "main": "index.js",
+  "author": "Mohan Mandal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1"
+  }
+}
