@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Mohan Mandal",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mandalmohan2001/nodejs-backend-architecture.git"
+  },
   "scripts": {
     "lint": "tslint -p tsconfig.json",
     "lint:fix": "tslint -p tsconfig.json --fix"
