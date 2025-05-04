@@ -1,7 +1,11 @@
-/node_modules
-/.vscode
-/dist
+# Ignore Node.js modules
+node_modules
+.vscode
+build
 
+# Ignore .env files
 .env
 
-/logs
+# Ignore logs
+logs
+*.log

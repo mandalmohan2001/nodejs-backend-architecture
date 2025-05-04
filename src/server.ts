@@ -2,6 +2,7 @@ import express from 'express';
 import { config } from './config/config';
 import cors from 'cors';
 import logger from './utils/logger';
+import './database/index'; // Import the database connection
 
 const app = express();
 
