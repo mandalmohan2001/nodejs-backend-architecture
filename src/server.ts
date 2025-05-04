@@ -1,6 +1,7 @@
 import express from 'express';
 import { config } from './config/config';
 import cors from 'cors';
+import logger from './utils/logger';
 
 const app = express();
 
@@ -10,7 +11,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb'}));
 app.use(cors({ origin: '*' }));
 
 app.listen(config.port, () => {
-  console.info(`Server is running on port ${config.port}`);
+  logger.info(`Server is running on port ${config.port}`);
 });
 
 export default app;
