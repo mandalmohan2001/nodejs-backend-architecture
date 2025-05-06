@@ -9,3 +9,6 @@ build
 # Ignore logs
 logs
 *.log
+
+# Ignore keys and certificates
+*.pem
